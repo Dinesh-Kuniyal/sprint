@@ -1,0 +1,27 @@
+3 INIT 
+first_element:100
+length:5
+target:2
+result:0
+
+INIT:7 first_element currentElement
+
+LOOP:5 counter length trueBlock
+3 STOP
+
+
+
+trueBlock:7 currentElement 20
+4 0 target foundCondition
+1 currentElement one currentElement
+1 counter one counter
+3 LOOP
+
+foundCondition:7 one result
+3 STOP
+
+
+currentElement:0
+counter:0
+one:1
+STOP:9
