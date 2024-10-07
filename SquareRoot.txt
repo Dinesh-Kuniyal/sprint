@@ -1,0 +1,18 @@
+3 INIT INPUT:49 RESULT:0
+
+INIT:7 INPUT helper
+
+LOOP:5 helper subtractor 26
+
+2 helper subtractor helper
+1 subtractor two subtractor
+1 one RESULT RESULT
+
+3 LOOP
+3 STOP
+
+helper:0
+subtractor:1
+two:2
+one:1
+STOP:9
