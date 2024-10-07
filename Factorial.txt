@@ -1,0 +1,28 @@
+3 5 factorial:7 result:1 
+
+7 factorial TempStorage
+
+4 factorial zero 16
+
+5 OuterCounter factorial 18
+3 STOP
+
+7 zero result
+
+5 InnerCounter factorial 37
+7 result TempStorage
+
+1 ONE OuterCounter OuterCounter
+7 OuterCounter InnerCounter
+3 12
+
+1 TempStorage result result
+1 InnerCounter ONE InnerCounter
+3 21
+
+OuterCounter:1
+InnerCounter:1
+TempStorage:0
+zero:0
+STOP:9
+ONE:1
